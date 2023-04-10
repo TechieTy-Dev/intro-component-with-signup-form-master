@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" href="/styles.css" />
+
+		<title>Frontend Mentor | Intro component with sign up form</title>
+	</head>
+	<body>
+		<main class="container">
+			<div class="content">
+				<h1 class="title">Learn to code by watching others</h1>
+				<p class="description">
+					See how experienced developers solve problems in real-time. Watching
+					scripted tutorials is great, but understanding how developers think is
+					invaluable.
+				</p>
+			</div>
+			<!-- TRIAL CARD -->
+			<div class="right">
+				<div class="free-trial">
+					<p class="trial-offer">
+						<span class="bold-text"> Try it free 7 days</span> then $20/mo.
+						thereafter
+					</p>
+				</div>
+				<!-- FORM -->
+				<form action="" class="form-card">
+					<input class="fname" type="text" placeholder="First Name" required />
+					<input class="lname" type="text" placeholder="Last Name" required />
+					<input
+						class="email"
+						type="email"
+						placeholder="Email Address"
+						required
+					/>
+					<input
+						class="password"
+						type="password"
+						placeholder="Password"
+						required
+					/>
+					<button class="form-btn">CLAIM YOUR FREE TRIAL</button>
+					<p class="fine-print">
+						By clicking the button, you are agreeing to our
+						<span class="terms-services">Terms and Services</span>
+					</p>
+					<!-- ERROR MESSAGE 1-->
+					<p class="errorMsg"></p>
+					<!-- ERROR ICON 1-->
+					<div class="errorIcon"></div>
+					<!-- ERROR MESSAGE 2-->
+					<p class="errorMsgTwo"></p>
+					<!-- ERROR ICON 2-->
+					<div class="errorIconTwo"></div>
+					<!-- ERROR MESSAGE 3-->
+					<p class="errorMsgThree"></p>
+					<!-- ERROR ICON 3-->
+					<div class="errorIconThree"></div>
+					<!-- ERROR MESSAGE 4-->
+					<p class="errorMsgFour"></p>
+					<!-- ERROR ICON 4-->
+					<div class="errorIconFour"></div>
+				</form>
+			</div>
+		</main>
+		<!-- SCRIPTS -->
+		<script src="/index.js"></script>
+	</body>
+</html>
